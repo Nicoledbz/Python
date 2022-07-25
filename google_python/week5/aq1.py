@@ -8,11 +8,15 @@ def format_address(address_string):
   # Declare variables
 
   # Separate the address string into parts
+  words = address_string.split(" ")
 
   # Traverse through the address parts
-  for __:
+  for word in words:
     # Determine if the address part is the
     # house number or part of the street name
+    if int(word) != ValueError:
+      print("works =" + str(word))
+
 
   # Does anything else need to be done 
   # before returning the result?
